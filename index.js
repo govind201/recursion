@@ -18,7 +18,7 @@ const fibs = (n) => {
 
 console.log(fibs(8));
 
-function getFibRec(num) {
+const getFibRec = (num) => {
   if (num == 1) return 0;
   if (num == 2) return 1;
   return getFibRec(num - 1) + getFibRec(num - 2);
